@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import desktopStyles from "./desktop.css";
 import { Button, Form } from "react-bootstrap";
-import "bootstrap/dist/css/bootstrap.min.css";
 
 const LoginComponent = () => {
   const styles = desktopStyles;
