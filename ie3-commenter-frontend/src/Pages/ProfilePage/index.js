@@ -1,5 +1,6 @@
 import HeaderComponent from "../../Components/HeaderComponent";
 import FooterComponent from "../../Components/FooterComponent";
+import ProfileComponent from "../../Components/ProfileComponent";
 
 const ProfilePage = () => {
   return (
@@ -7,9 +8,7 @@ const ProfilePage = () => {
       <HeaderComponent />
       <hr />
 
-      <div>
-        <h1>Hello Profile Page!</h1>
-      </div>
+      <ProfileComponent />
 
       <hr />
       <FooterComponent />
