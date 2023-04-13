@@ -1,17 +1,11 @@
-.mainBlock {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  position: absolute;
-  top: 30%;
-  left: 25%;
-  width: 50%;
+.main-block {
+  max-width: "50%";
+  margin: 4rem auto;
 }
 
 .formBlock {
   width: 90%;
-  margin: 10px;
+  margin: 4rem auto;
   padding-top: 10%;
   padding-bottom: 10%;
   padding-left: 5%;

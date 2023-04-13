@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import desktopStyles from "./desktop.css";
+import desktopStyles from "./desktop.module.css";
 import { Button, Form } from "react-bootstrap";
 
 const LoginComponent = () => {
@@ -17,7 +17,7 @@ const LoginComponent = () => {
   };
 
   return (
-    <div style={{ width: "50%", marginLeft: "25%" }}>
+    <div className={styles.mainBlock}>
       <Form className={styles.formBlock} onSubmit={submitInfo}>
         <Form.Group className="mb-3" controlId="formBasicId">
           <Form.Label>아이디</Form.Label>

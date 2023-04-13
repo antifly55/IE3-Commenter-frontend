@@ -1,5 +1,6 @@
 import HeaderComponent from "../../Components/HeaderComponent";
 import FooterComponent from "../../Components/FooterComponent";
+import SignupComponent from "../../Components/SignchangeComponent";
 
 const SignchangePage = () => {
   return (
@@ -7,9 +8,7 @@ const SignchangePage = () => {
       <HeaderComponent />
       <hr />
 
-      <div>
-        <h1>Hello Signchange Page!</h1>
-      </div>
+      <SignupComponent />
 
       <hr />
       <FooterComponent />

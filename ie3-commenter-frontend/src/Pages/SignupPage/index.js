@@ -2,7 +2,7 @@ import HeaderComponent from "../../Components/HeaderComponent";
 import FooterComponent from "../../Components/FooterComponent";
 import SignupComponent from "../../Components/SignupComponent";
 
-const LoginPage = () => {
+const SignupPage = () => {
   return (
     <div>
       <HeaderComponent />
@@ -16,4 +16,4 @@ const LoginPage = () => {
   );
 };
 
-export default LoginPage;
+export default SignupPage;
